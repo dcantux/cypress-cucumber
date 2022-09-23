@@ -1,0 +1,21 @@
+{
+  "name": "webclient_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "cypress:run": "cypress run",
+    "postcypress:run": "node cucumber-html-report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "13.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "2.1.5",
+    "cypress": "10.8.0",
+    "esbuild": "0.15.9",
+    "multiple-cucumber-html-reporter": "2.0.0"
+  }
+}
